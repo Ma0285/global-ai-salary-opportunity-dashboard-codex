@@ -14,6 +14,17 @@ It is designed to answer the following question:
 
 > Across the global AI job market represented in the source data, which employer locations, roles, industries, remote-work models, and skill combinations offer the strongest salary opportunities, and how should a job seeker prioritize applications?
 
+## Development approach
+
+This project was developed through an AI-assisted coding workflow using
+OpenAI Codex.
+
+I defined the product requirements, analytical questions, dashboard logic,
+scoring assumptions, interface behavior, and validation criteria. Codex
+supported code generation, debugging, refactoring, and implementation.
+I reviewed the resulting code, tested the application, and validated the
+dashboard metrics against the underlying dataset.
+
 ## Key features
 
 - Interactive role selector
