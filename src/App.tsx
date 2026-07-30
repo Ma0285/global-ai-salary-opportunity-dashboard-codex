@@ -52,7 +52,7 @@ export default function App() {
   const [selectedSkills, setSelectedSkills] = useState<string[]>([]);
 
   useEffect(() => {
-    fetch("/data/ai-salary-analysis.json")
+    fetch(`${import.meta.env.BASE_URL}data/ai-salary-analysis.json`)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
